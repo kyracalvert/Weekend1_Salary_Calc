@@ -10,7 +10,29 @@ h1 {
     height: 50px;
 }
 
+h2 {
+    float: left;
+}
+
 body {
     background-color: mediumturquoise;
 }
 
+table {
+    margin-top: 100px;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+    
+}
+
+tr {
+    text-align: left;
+}
+
+td {
+    height: 50px;
+    
+}
