@@ -10,8 +10,9 @@ h1 {
     height: 50px;
 }
 
-h2 {
+h3 {
     float: left;
+    color: rgb(223, 35, 144);
 }
 
 body {
@@ -19,20 +20,34 @@ body {
 }
 
 table {
-    margin-top: 100px;
-    text-align: left;
+    border: thin solid white;
+    border-collapse:collapse;
+	width: 800px;
+	float: left;
+	text-align: center;
+	align-items:center;
 }
+
+tr{
+	align-content: center;
+	border-width: thin;
+	border: thin solid #EFEFEF;
+	padding: 5px;
+	}
 
 th {
-    text-align: left;
-    
-}
+        background-color: lightgrey;
+        align-content: center;
+        border-width: thin;
+        border: thin solid #EFEFEF;
+        padding: 5px;
 
-tr {
-    text-align: left;
-}
+    }
 
 td {
-    height: 50px;
-    
+    align-content: center;
+    border-width: thin;
+    border: thin solid #EFEFEF;
+    padding: 5px;
 }
+
