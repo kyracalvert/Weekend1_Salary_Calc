@@ -14,84 +14,64 @@
 <body>
     <h1>Salary Calculator</h1>
 
-    <form>
-        <p><strong>Add Employee</strong></p>
 
-        <div>
-            <label for="name">First Name:</label>
-            <input type="text" id="name" name="first_name">
-        </div>
+    <p>
+        <strong>Add Employee</strong>
+    </p>
 
-        <div>
-            <label for="surname">Last Name:</label>
-            <input type="text" id="surname" name="last_name">
-        </div>
-
-        <div>
-            <label for="idnum">ID Number:</label>
-            <input type="text" id="idnum" name="id_number">
-        </div>
-
-        <div>
-            <label for="title">Job Title:</label>
-            <input type="text" id="title" name="job_title">
-        </div>
-
-        <div>
-            <label for="salary">Annual Salary:</label>
-            <input type="text" id="salary" name="annual_salary">
-        </div>
-
-        <div class="button">
-            <button type="submit">Submit</button>
-        </div>
-
-        
-
-    </form>
-    <div class="containerDiv">
-    <div class="tableDiv">
-            <h3>Current Employees</h3> <br>
-        <table>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>ID Number</th>
-                <th>Job Title</th>
-                <th>Annual Salary</th>
-            </tr>
-    
-            <tr>
-                <td>Hasan</td>
-                <td>Ibrahim</td>
-                <td>4521</td>
-                <td>Team Lead</td>
-                <td>100,000</td>
-    
-            </tr>
-    
-            <tr>
-                <td>Udey</td>
-                <td>Adoga</td>
-                <td>4622</td>
-                <td>Engineer</td>
-                <td>85,000</td>
-    
-            </tr>
-    
-            <tr>
-                <td>Sumaiyah</td>
-                <td>Ali</td>
-                <td>4723</td>
-                <td>UX Support</td>
-                <td>60,000</td>
-    
-            </tr>
-    
-        </table>
-    
+    <div>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="first_name">
     </div>
-</div>
+
+    <div>
+        <label for="surname">Last Name:</label>
+        <input type="text" id="surname" name="last_name">
+    </div>
+
+    <div>
+        <label for="idnum">ID Number:</label>
+        <input type="text" id="idnum" name="id_number">
+    </div>
+
+    <div>
+        <label for="title">Job Title:</label>
+        <input type="text" id="title" name="job_title">
+    </div>
+
+    <div>
+        <label for="salary">Annual Salary:</label>
+        <input type="text" id="salary" name="annual_salary">
+    </div>
+
+    <div class="button">
+        <button id="submit">Submit</button>
+    </div>
+
+
+
+
+    <div class="containerDiv">
+        <div class="tableDiv">
+            <h3>Current Employees</h3>
+            <br>
+            <table id="employeeList">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID Number</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div id="totalMonthly">Total Monthly Expenses:
+        <span id="expenses"> </span>
+    </div>
 </body>
 
 </html>
