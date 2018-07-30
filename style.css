@@ -51,3 +51,7 @@ td {
     border: thin solid black;
     padding: 5px;
 }
+
+p {
+    margin-bottom: 10px;
+}
