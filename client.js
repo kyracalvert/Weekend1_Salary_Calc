@@ -41,12 +41,16 @@ function getInput() {
         $('#expenses').css('background-color', '#ff6666');
     }
 
+    //clear input fields 
+    //input fields that are a child of employee-form
+    $('#employee-form input').val('');
 
 }
 
 function deleteEmployee() {
     console.log('deleteEmployee');
     $(this).parent().parent().remove();
+
 
 }
 
