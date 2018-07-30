@@ -6,17 +6,16 @@ div {
 h1 {
     text-align: right;
     color: white;
-    background-color: grey;
+    background-color: lightseagreen;
     height: 50px;
 }
 
-h3 {
+h4 {
     float: left;
-    color: rgb(223, 35, 144);
 }
 
 body {
-    background-color: mediumturquoise;
+    background-color: lightgray;
 }
 
 table {
@@ -31,15 +30,16 @@ table {
 tr{
 	align-content: center;
 	border-width: thin;
-	border: thin solid #EFEFEF;
+	border: thin solid black;
 	padding: 5px;
 	}
 
 th {
-        background-color: lightgrey;
+        background-color: lightseagreen;
+        color: white;
         align-content: center;
         border-width: thin;
-        border: thin solid #EFEFEF;
+        border: thin solid black;
         padding: 5px;
 
     }
@@ -47,7 +47,6 @@ th {
 td {
     align-content: center;
     border-width: thin;
-    border: thin solid #EFEFEF;
+    border: thin solid black;
     padding: 5px;
 }
-

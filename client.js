@@ -34,8 +34,11 @@ function getInput() {
     console.log('total monthly:', totalMonthly);
     $('#expenses').html('$' + Math.round(100 * totalMonthly) / 100);
 
+    if (totalMonthly < 20000) {
+        $('#expenses').css('background-color', 'yellow')
+    }
     if (totalMonthly > 20000) {
-        $('#expenses').css('background-color', 'red');
+        $('#expenses').css('background-color', '#ff6666');
     }
 
 
